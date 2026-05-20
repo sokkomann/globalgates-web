@@ -2,9 +2,9 @@
 
 | 페이지 | URL | 주요 역할 |
 | --- | --- | --- |
-| 메인 페이지 | `https://global-gates.com/main/main` | 피드 조회, 게시글 작성, 광고 목록, 전문가 목록 제공 |
-| 구독 페이지 | `https://global-gates.com/subscribe` | 구독 플랜 선택, 결제, 현재 구독 조회, 구독 해지 |
-| 친구 페이지 | `https://global-gates.com/friends` | 추천 커넥션, 팔로워/팔로잉 목록, 카테고리 기반 탐색 |
+| 메인 페이지 | `https://global-gates.com/main/main` | 피드 조회, 게시글 작성, 광고 목록, 전문가 목록 조회 |
+| 구독 페이지 | `https://global-gates.com/subscribe` | 구독 플랜 선택, 결제, 현재 구독 확인 |
+| 친구 페이지 | `https://global-gates.com/friends` | 추천 커넥션, 팔로워/팔로잉 목록, 카테고리 기반 회원 조회 |
 
 ## 🏠 메인 페이지
 
@@ -15,7 +15,6 @@
 - 게시글 목록 무한스크롤 조회
 - 게시글 작성, 수정, 삭제
 - 댓글 작성 및 댓글 목록 조회
-- 이미지/파일 업로드와 S3 Presigned URL 변환
 - 좋아요 추가 및 취소
 - 북마크 추가 및 취소
 - 팔로우 및 팔로우 취소
@@ -60,14 +59,14 @@ Friends 페이지는 사용자가 새로운 커넥션을 찾고, 본인 또는 �
 - 탭별 목록 및 카운트 갱신
 - 무한스크롤 페이징
 - Connect/Disconnect 버튼 상태 관리
-- Expert 회원의 Follow/Unfollow 표시 분기
+- Expert 회원의 Follow/Unfollow 표시
 - 이용중인 로그인 사용자 기준 차단 필터 적용
 
 <img src="./images/swagger-friends.png">
 
-## 🧩 페이지별 핵심 요약
+## 🧩 페이지별 요약
 
-| 페이지 | 핵심 책임 |
+| 페이지 | 기능 요약 |
 | --- | --- |
 | 메인 | 사용자 피드와 소셜 상호작용 처리 |
 | 구독 | 결제, 구독 상태, 등급별 권한 처리 |
