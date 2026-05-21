@@ -24,7 +24,7 @@
 - 피드 목록에서 광고 조회
 - 전문가 목록 조회
 
-<img src="./images/swagger-main.png">
+<img src="./images/swagger-main-1.png">
 <img src="./images/swagger-main-2.png">
 
 ## 💳 구독 페이지
